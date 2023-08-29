@@ -196,12 +196,22 @@ a {
   display: flex;
   gap: 80px; 
   padding-top: 170px;
+  margin-bottom: 85vh;
 }
 
 .info__top-text {
   padding-top: 245px;
   width: 290px;
   color: #fff;
+  position: relative;
+}
+
+.info__top-text--one {
+  padding-bottom: 125px;
+}
+
+.info__top-text--two {
+  border-bottom: 1px solid #fff;
 }
 
 .info__top-img {
@@ -210,6 +220,20 @@ a {
 }
 
 .popup-btn {
-
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
+.popup-btn span {
+  padding-top: 12px;
+  display: block;
+  color: #fff;
+}
+
+.info__btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
