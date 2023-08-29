@@ -17,6 +17,8 @@ a {
   color: inherit;
 }
 
+/*? =============================== Header =================================== */
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -29,6 +31,7 @@ a {
   background-repeat: no-repeat;
   min-height: 100vh;
   background-position: center;
+  margin-bottom: 80px;
 }
 
 .header::before {
@@ -162,3 +165,51 @@ a {
   line-height: 39px;
   text-align: center;
 }
+
+
+/* ?================================== End Header =============================== */
+
+/* ?==================================== Main ================================== */
+
+.info {
+  background-image: url(../img/info-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  /* margin-top: 120px;  */
+}
+
+.info::before {
+  content: "";
+  position: absolute;
+  height: 130px;
+  background-color: #262c27;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-120px);
+  z-index: 1;
+}
+
+.info__top {
+  display: flex;
+  gap: 80px; 
+  padding-top: 170px;
+}
+
+.info__top-text {
+  padding-top: 245px;
+  width: 290px;
+  color: #fff;
+}
+
+.info__top-img {
+  position: relative;
+  z-index: 6;
+}
+
+.popup-btn {
+
+}
+
