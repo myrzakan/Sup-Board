@@ -347,6 +347,13 @@ ul li {
   padding: 18px;
   text-align: center;
   min-width: 484px;
+  transition: all .3s;
+}
+
+.buy__btn:hover {
+  background-color: #B9C400;
+  border-color: #B9C400;
+  color: #262c27;
 }
 
 .buy__price {
