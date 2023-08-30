@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -171,7 +170,6 @@ ul li {
   text-align: center;
 }
 
-
 /* ?================================== End Header ================================= */
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -200,7 +198,7 @@ ul li {
 
 .info__top {
   display: flex;
-  gap: 80px; 
+  gap: 80px;
   padding-top: 170px;
   margin-bottom: 85vh;
 }
@@ -230,6 +228,7 @@ ul li {
   border: none;
   cursor: pointer;
   background-color: transparent;
+  position: absolute;
 }
 
 .popup-btn span {
@@ -239,7 +238,6 @@ ul li {
 }
 
 .info__btn {
-  position: absolute;
   bottom: 0;
   right: 0;
 }
@@ -259,7 +257,7 @@ ul li {
 
 .info__specs-title {
   text-transform: uppercase;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-size: 60px;
   line-height: 67px;
   width: 250px;
@@ -272,7 +270,6 @@ ul li {
   width: 565px;
   font-weight: 400;
 }
-
 
 .info__specs-item {
   margin-bottom: 15px;
@@ -289,7 +286,7 @@ ul li {
 /* ?===================================== Section two ================================== */
 
 .buy {
-  padding: 150px;
+  padding: 150px 0 0;
 }
 
 .buy__inner {
@@ -309,7 +306,7 @@ ul li {
   line-height: 67px;
   color: #0093a1;
   font-weight: 400;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   width: 510px;
 }
 
@@ -324,18 +321,17 @@ ul li {
 .buy__item {
   margin-bottom: 25px;
   width: 285px;
-
 }
 
 .buy__item-title {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 5px;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .buy__btn {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-weight: 700;
   line-height: 45px;
   font-size: 40px;
@@ -347,12 +343,12 @@ ul li {
   padding: 18px;
   text-align: center;
   min-width: 484px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .buy__btn:hover {
-  background-color: #B9C400;
-  border-color: #B9C400;
+  background-color: #b9c400;
+  border-color: #b9c400;
   color: #262c27;
 }
 
@@ -371,16 +367,60 @@ ul li {
   top: 230rem;
 }
 
-
 /* ?================================== End section two ================================= */
-
 
 /* ?=================================== Section three =================================== */
 
+.technology {
+  margin-bottom: 150px;
+}
 
+.technology__top {
+  background-image: url(../img/tech-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+.technology__top-inner {
+  position: relative;
+  min-height: 150vh;
+}
 
+.technology__btn {
+  right: 350px;
+  top: 50vh;
+}
 
+.technology__top-box {
+  position: absolute;
+  left: 0;
+  bottom: 85px;
+}
 
+.technology__title {
+  max-width: 470px;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 67px;
+  font-weight: 400;
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 62px;
+}
+
+.technology__list {
+  margin: 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  left: 24px;
+}
+
+.technology__list-item {
+  padding: 10px 0;
+}
 
 /* ?==================================== End section threee =============================== */
