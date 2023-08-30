@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -15,6 +16,10 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+ul li {
+  list-style: none;
 }
 
 /*? =============================== Header =================================== */
@@ -167,10 +172,11 @@ a {
 }
 
 
-/* ?================================== End Header =============================== */
+/* ?================================== End Header ================================= */
 
-/* ?==================================== Main ================================== */
+/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+/* ?============================== Section one ==================================== */
 .info {
   background-image: url(../img/info-bg.jpg);
   background-size: cover;
@@ -278,3 +284,87 @@ a {
   width: 185px;
 }
 
+/* ?===================================== Ens section one ============================== */
+
+/* ?===================================== Section two ================================== */
+
+.buy {
+  padding: 150px;
+}
+
+.buy__inner {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.buy__content {
+  width: 510px;
+}
+
+.buy__title {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-size: 60px;
+  line-height: 67px;
+  color: #0093a1;
+  font-weight: 400;
+  font-family: 'Comfortaa', cursive;
+  width: 510px;
+}
+
+.buy__list {
+  margin-bottom: 60px;
+}
+
+.buy__item:hover .buy__item-title {
+  color: #0093a1;
+}
+
+.buy__item {
+  margin-bottom: 25px;
+  width: 285px;
+
+}
+
+.buy__item-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  transition: color .3s;
+}
+
+.buy__btn {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #0093a1;
+  color: #0093a1;
+  cursor: pointer;
+  padding: 18px;
+  text-align: center;
+  min-width: 484px;
+}
+
+.buy__price {
+  width: 201px;
+  height: 199px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/star.svg);
+  position: absolute;
+  right: 65rem;
+  top: 230rem;
+}
+
+
+
+
+/* ?================================== End section two ================================= */
