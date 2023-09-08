@@ -634,3 +634,20 @@ img {
 .footer__logo:hover path {
   fill: #0093a1;
 }
+
+
+
+/* ?================================ Media ================================ */
+
+@media (max-width: 1230px) {
+  .header__decor-text--two {
+    left: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .header__decor-text--two {
+    left: 0;
+  }
+}
+
